@@ -24,7 +24,7 @@ o GPIO responsável em alimentar o Módulo Relé.
 detalhes sobre os hardwares e sistemas utilizados, além de explicar o fluxo detalhado do projeto
 e seu objetivo na sociedade. </p>
 
-<p> Também existe um vídeo disponível no youtube exibindo o funcionamento do sistema por completo: </p>
+<p> Também existe um vídeo disponível no youtube exibindo o funcionamento do sistema: https://www.youtube.com/watch?v=k0NBGax0p_4&feature=youtu.be </p>
 
 
 
