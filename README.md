@@ -12,8 +12,8 @@ como a plataforma Watson e o Node-RED, utilizando os protocolos MQTT. </p>
 
 <p> De maneira bem simplista, o fluxo funciona da seguinte maneira:</p>
 <p> 1- O raspberry é ligado em sua fonte de energia</p>
-<p> 2- O microfone recebe um comando do node-red para começar a receber todas as captações sonoras e a retornar ao node-red</p>
-<p> 3- O node-red envia à plataforma Watson, de serviços cognitivos, traduz os sons capturados e os retornam ao node-red  </p>
+<p> 2- O microfone recebe um comando do node-red para começar a receber todas as captações sonoras e a retornar ao node-red.</p>
+<p> 3- O node-red envia à plataforma Watson, de serviços cognitivos, traduz os sons capturados e os retornam ao node-red.</p>
 <p> 4- O Node-RED, por sua vez, possui toda a lógica do sistema. Ele será o responsável e tratar os comandos "on" e "off".
 Caso o comando enviado seja "on", ele envia uma mensagem ao raspberry para que ele ligue o GPIO responsável em enviar
 energia ao Módulo Relé. Caso o comando seja "off", ele envia a mensagem para que o raspberry desligue
